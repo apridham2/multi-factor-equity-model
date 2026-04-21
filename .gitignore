@@ -205,3 +205,27 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# Project data
+data/
+!data/sample.csv
+
+# Project outputs
+outputs/
+reports/
+results/
+
+# Exported files
+*.xlsx
+*.csv
+*.html
+*.png
+*.pdf
+
+# Local temp/log folders
+logs/
+tmp/
+temp/
+
+# IDE folders
+.vscode/
+.idea/
