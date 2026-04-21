@@ -29,7 +29,7 @@ def get_sp500_tickers(save_csv=True):
     )
 
     if save_csv:
-        base_dir = Path(__file__).parent
+        base_dir = Path(__file__).parent.parent
         out_dir = base_dir / "data"
         out_dir.mkdir(exist_ok=True)
 
