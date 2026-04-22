@@ -48,8 +48,8 @@ def combine_scores(df, weights=None):
 
     if weights is None:
         weights = {
-            "momentum_score": 0.5,
-            "volatility_score": 0.5
+            "momentum_score": 0.7,
+            "volatility_score": 0.3
         }
 
     missing = [col for col in weights if col not in df.columns]

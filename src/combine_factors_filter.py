@@ -65,7 +65,7 @@ def rank_filtered_volatility(df):
 
     filtered["filtered_vol_percentile"] = (
         filtered.groupby("date")["volatility"]
-        .rank(method="average", pct=True, ascending=False)
+        .rank(method="average", pct=True, ascending=True)
     )
    
     filtered["combined_score"] = filtered["filtered_vol_percentile"]
