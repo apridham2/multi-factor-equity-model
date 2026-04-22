@@ -1,3 +1,7 @@
+"""
+This script is deprecated and is no longer used.
+"""
+
 import pandas as pd
 import numpy as np
 from pathlib import Path
